@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*_________________Media queries____________________*/
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+/*_____________________________________*/
+
+body {
+  background-color: rgb(237, 237, 237);
+  font-family: Raleway;
+  font-size: 1rem;
+}
+/*_________________Regeles Typo_______________________*/
+
+h1{
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+}
+
+.blue {
+  color: blue;
+}
+
+.fa-brands {
+  color: blue;
+}
+
+/*_________________Regles éléments/atomes_______________________*/
+
+.img-circle {
+  border-radius: 50px;
+}
+
+img {
+  width: 100;
+  height: 100;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.radius {
+  border-radius: 0.3em;
+}
+
+ul {
+  list-style: none;
+}
+
+.inline-block > li {
+  display: inline-block;
+}
+
+/*_________________Fin Regles éléments/atome_______________________*/
+/* __________________ regle bouton ____________________*/
+
+.btn {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  box-shadow: 0.1em 0.1em 0.1em rgb(195, 195, 195);
+  padding: 0.3em 0.9em;
+  border-radius: 0.2em;
+  margin: 1em;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: rgb(3, 3, 169);
+}
+
+.icone {
+  font-size: 2em;
+}
+
+/*________________Regles organismes_______________________*/
+
+.container {
+  /*width: 500px;*/
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+ul > li {
+  padding: 0 0.5em 0 0.5em;
+}
